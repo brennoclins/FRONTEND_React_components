@@ -1,7 +1,3 @@
 export function App() {
-  return (
-    <>
-      <h1>BCL</h1>
-    </>
-  )
+  return <main>BCL</main>
 }
