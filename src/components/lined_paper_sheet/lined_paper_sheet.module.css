@@ -1,0 +1,14 @@
+.container {
+  @apply
+  p-8
+  w-screen
+  h-screen
+}
+.line_paper_sheet {
+  background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),
+    linear-gradient(to right, #ebf8e100 10%, #c73030 10% 10.2%, #ebf8e100 10.5%);
+  background-size: 100% 25px, 100% 100%;
+  @apply
+  w-full
+  h-full
+}

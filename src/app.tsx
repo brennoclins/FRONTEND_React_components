@@ -1,7 +1,9 @@
+import { LinedPaperSheet } from './components/lined_paper_sheet/lined_paper_sheet'
+
 export function App() {
   return (
-    <>
-      <h1>BCL</h1>
-    </>
+    <main>
+      <LinedPaperSheet />
+    </main>
   )
 }
