@@ -5,10 +5,13 @@
   h-screen
 }
 .line_paper_sheet {
-  background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),
+  /* background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),
     linear-gradient(to right, #ebf8e100 10%, #c73030 10% 10.2%, #ebf8e100 10.5%);
-  background-size: 100% 25px, 100% 100%;
+  background-size: 100% 25px, 100% 100%; */
   @apply
   w-full
   h-full
+  bg-[linear-gradient(180deg,#3f87a6_10%,#ebf8e1a2_10%),linear-gradient(90deg,#ebf8e100_10%,#c73030_10.2%,#ebf8e100_10.5%)] 
+  bg-[length:100%_25px,100%_100%]
 }
+
