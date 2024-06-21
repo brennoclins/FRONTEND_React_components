@@ -1,9 +1,9 @@
-import { RubiksCube } from './components/rubiks_cube/rubiks_cube'
+import { LoaderProgressBar } from './components/loader_progress_bar/loader_progress_bar'
 
 export function App() {
   return (
     <main>
-      <RubiksCube />
+      <LoaderProgressBar />
     </main>
   )
 }
