@@ -1,9 +1,9 @@
-import { LoaderSpinner } from './components/loader_spinner/loader_spinner'
+import { LoaderHeatPulse } from './components/loader_heat_pulse/loader_heat_pulse'
 
 export function App() {
   return (
     <main>
-      <LoaderSpinner />
+      <LoaderHeatPulse />
     </main>
   )
 }
