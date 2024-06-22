@@ -1,9 +1,9 @@
-import { LoaderProgressBar } from './components/loader_progress_bar/loader_progress_bar'
+import { LoaderSpinner } from './components/loader_spinner/loader_spinner'
 
 export function App() {
   return (
     <main>
-      <LoaderProgressBar />
+      <LoaderSpinner />
     </main>
   )
 }
