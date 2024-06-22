@@ -1,0 +1,100 @@
+.spinner {
+  @apply
+  relative
+  w-screen
+  h-screen
+  
+  flex
+  justify-center
+  items-center
+
+  bg-amber-700
+}
+
+.spinner span {
+  @apply
+  relative
+  w-10
+  h-32
+  
+  rounded-lg
+  shadow-lg
+  shadow-black
+  animate-[dominos_1s_linear_infinite]
+}
+.spinner span::before {
+  @apply
+  absolute
+  top-2
+  left-3
+
+  
+  content-[""]
+  w-4
+  h-4
+
+  rounded-full
+
+  bg-black
+}
+
+
+.spinner span:nth-child(1) {
+  @apply
+  bg-red-600
+  [animation-delay:_0.125s]
+}
+
+.spinner span:nth-child(2) {
+  @apply
+  bg-yellow-500
+  [animation-delay:_0.3s]
+}
+
+.spinner span:nth-child(3) {
+  @apply
+  bg-sky-500
+  [animation-delay:_0.435s]
+}
+
+.spinner span:nth-child(4) {
+  @apply
+  bg-green-500
+  [animation-delay:_0.54s]  
+}
+
+.spinner span:nth-child(5) {
+  @apply
+  bg-pink-500
+  [animation-delay:_0.665s]
+}
+
+.spinner span:nth-child(6) {
+  @apply
+  bg-emerald-500
+}
+
+.spinner span:nth-child(7) {
+  @apply
+  bg-blue-500
+  [animation-delay:_0.915s]
+}
+
+.spinner span:nth-child(8) {
+  @apply
+  bg-zinc-500
+}
+
+@keyframes dominos {
+  50% {
+    opacity: 0.7;
+  }
+
+  75% {
+    transform: rotate(90deg);
+  }
+
+  80% {
+    opacity: 1;
+  }
+}
