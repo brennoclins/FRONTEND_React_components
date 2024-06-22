@@ -1,0 +1,54 @@
+.loading {
+  @apply
+  w-full
+  h-screen
+
+  flex
+  justify-center
+  items-center
+  
+  bg-black
+
+  relative
+}
+
+.loading svg {
+  @apply
+  w-[20rem]
+  h-[15rem]
+  fill-transparent
+  stroke-transparent
+  text-transparent
+}
+
+ .loading svg polyline {
+  @apply
+  w-[20rem]
+  h-[15rem]
+  /* fill-none */
+  stroke-[length:4]
+}
+
+
+.loading svg polyline#back {
+  @apply
+  stroke-red-950
+}
+
+.loading svg polyline#front {
+  stroke-dasharray: 400, 400;
+  stroke-dashoffset: 800;
+  @apply
+  stroke-red-600
+  animate-[dashPulse_3.5s_linear_infinite]
+} 
+
+@keyframes dashPulse {
+  35% {
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
