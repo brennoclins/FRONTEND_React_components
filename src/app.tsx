@@ -1,9 +1,7 @@
-import { LoaderHeatPulse } from './components/loader_heat_pulse/loader_heat_pulse'
+import { RouterProvider } from 'react-router-dom'
+
+import { router } from './routers'
 
 export function App() {
-  return (
-    <main>
-      <LoaderHeatPulse />
-    </main>
-  )
+  return <RouterProvider router={router} />
 }
