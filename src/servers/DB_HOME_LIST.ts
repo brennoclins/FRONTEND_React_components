@@ -4,7 +4,7 @@ export const LIST_COMPONENTS_LINKS = [
     link: '/rubiks-cube',
   },
   {
-    title: 'Loading Screen Circular Lights',
+    title: 'Tela de carregamento com luzes circulares',
     link: '/loading-screen-circular-lights',
   },
   {
@@ -12,15 +12,19 @@ export const LIST_COMPONENTS_LINKS = [
     link: '/loader-spinner',
   },
   {
-    title: 'Loader Progress Bar',
+    title: 'Barra de progresso',
     link: '/loader-progress-bar',
   },
   {
-    title: 'Loader Heat Pulse',
-    link: '/loader_heat_pulse',
+    title: 'Tela de carregamento Pulso de calor',
+    link: '/loader-heat-pulse',
   },
   {
-    title: 'Lined Paper Sheet',
-    link: '/lined_paper_sheet',
+    title: 'Folha de papel pautado',
+    link: '/lined-paper-sheet',
+  },
+  {
+    title: 'Tela de login',
+    link: '/login-screen-1',
   },
 ]
