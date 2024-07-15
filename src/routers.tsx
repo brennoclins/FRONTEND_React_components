@@ -5,6 +5,7 @@ import { LoaderHeatPulse } from './components/loader_heat_pulse/loader_heat_puls
 import { LoaderProgressBar } from './components/loader_progress_bar/loader_progress_bar'
 import { LoaderSpinner } from './components/loader_spinner/loader_spinner'
 import { LoadingScreenCircularLights } from './components/loading_screen_circular_lights/loading_screen_circular_lights'
+import { LoginScreen1 } from './components/login_screen_1/login_screen_1'
 import { RubiksCube } from './components/rubiks_cube/rubiks_cube'
 import { Components2024Layout } from './pages/_layouts/components_2024_layout'
 import { HomePage } from './pages/home_page'
@@ -22,8 +23,9 @@ export const router = createBrowserRouter([
       },
       { path: '/loader-spinner', element: <LoaderSpinner /> },
       { path: '/loader-progress-bar', element: <LoaderProgressBar /> },
-      { path: '/loader_heat_pulse', element: <LoaderHeatPulse /> },
-      { path: '/lined_paper_sheet', element: <LinedPaperSheet /> },
+      { path: '/loader-heat-pulse', element: <LoaderHeatPulse /> },
+      { path: '/lined-paper-sheet', element: <LinedPaperSheet /> },
+      { path: '/login-screen-1', element: <LoginScreen1 /> },
     ],
   },
 ])
